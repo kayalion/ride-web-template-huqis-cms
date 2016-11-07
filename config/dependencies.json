@@ -1,0 +1,25 @@
+{
+    "dependencies": [
+        {
+            "interfaces": "huqis\\func\\TemplateFunction",
+            "class": "ride\\web\\template\\huqis\\func\\TextTemplateFunction",
+            "id": "text",
+            "tags": "huqis",
+            "calls": [
+                {
+                    "method": "__construct",
+                    "arguments": [
+                        {
+                            "name": "textParser",
+                            "type": "dependency",
+                            "properties": {
+                                "interface": "ride\\library\\cms\\content\\text\\TextParser",
+                                "id": "chain"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

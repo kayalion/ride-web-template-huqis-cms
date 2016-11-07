@@ -1,0 +1,24 @@
+{
+    "name": "ride/web-template-huqis-cms",
+    "description": "Huqis template integration for the CMS web application of the Ride framework",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Joris Vandeweerd",
+            "email": "joris@statik.be"
+        }
+    ],
+    "require": {
+        "ride/app": "^1.0.0",
+        "ride/app-template": "^1.0.0",
+        "ride/app-template-huqis": "*",
+        "ride/lib-cms": "^1.0.0",
+        "ride/web": "^1.0.0",
+        "ride/web-cms": "^1.0.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "ride\\web\\template\\huqis\\func\\": ["src/"]
+        }
+    }
+}
